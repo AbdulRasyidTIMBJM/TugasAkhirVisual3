@@ -3,8 +3,8 @@ object Form1: TForm1
   Top = 125
   Width = 928
   Height = 480
-  Caption = 'Form1'
-  Color = clMoneyGreen
+  Caption = 'LOGIN'
+  Color = clWindowText
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -15,12 +15,12 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object GroupBox1: TGroupBox
-    Left = 168
+    Left = 184
     Top = 48
     Width = 353
     Height = 193
     Caption = 'GroupBox1'
-    Color = clHighlight
+    Color = clAqua
     ParentColor = False
     TabOrder = 0
     object Label1: TLabel
@@ -38,9 +38,9 @@ object Form1: TForm1
       Caption = 'Password'
     end
     object Button1: TButton
-      Left = 24
-      Top = 136
-      Width = 75
+      Left = 48
+      Top = 128
+      Width = 201
       Height = 25
       Caption = 'LOGIN'
       TabOrder = 0
@@ -75,17 +75,17 @@ object Form1: TForm1
         Caption = 'Data Barang'
         OnClick = DataBarang1Click
       end
-      object DataPeminjaman1: TMenuItem
-        Caption = 'Data Peminjaman'
-        OnClick = DataPeminjaman1Click
+      object DataKeuangan1: TMenuItem
+        Caption = 'Data Keuangan'
+        OnClick = DataKeungan1Click
       end
-      object DataPerpanjangan1: TMenuItem
-        Caption = 'Data Perpanjangan'
-        OnClick = DataPerpanjangan1Click
+      object Data1Transaksi: TMenuItem
+        Caption = 'Data Transaksi'
+        OnClick = DataTransaksi1Click
       end
-      object DataUser1: TMenuItem
-        Caption = 'Data User'
-        OnClick = DataUser1Click
+      object DataAkses1: TMenuItem
+        Caption = 'Data Akses Seluler'
+        OnClick = DataAkses1Click
       end
     end
     object Logout1: TMenuItem

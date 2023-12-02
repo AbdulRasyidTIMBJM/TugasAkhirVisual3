@@ -75,17 +75,17 @@ object Form1: TForm1
         Caption = 'Data Barang'
         OnClick = DataBarang1Click
       end
-      object DataPeminjaman1: TMenuItem
-        Caption = 'Data Peminjaman'
-        OnClick = DataPeminjaman1Click
+      object DataKeuangan1: TMenuItem
+        Caption = 'Data Keuangan'
+        OnClick = DataKeungan1Click
       end
-      object DataPerpanjangan1: TMenuItem
-        Caption = 'Data Perpanjangan'
-        OnClick = DataPerpanjangan1Click
+      object DataTransaksi1: TMenuItem
+        Caption = 'Data Transaksi'
+        OnClick = DataTransaksi1Click
       end
-      object DataUser1: TMenuItem
-        Caption = 'Data User'
-        OnClick = DataUser1Click
+      object DataAkses1: TMenuItem
+        Caption = 'Data Akses Seluler'
+        OnClick = DataAkses1Click
       end
     end
     object Logout1: TMenuItem
